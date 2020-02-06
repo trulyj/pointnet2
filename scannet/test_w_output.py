@@ -2,7 +2,7 @@
 #A script to test a previously trained model of PointNet++ Semantic Segmentation on new test data.
 #Outputs results and point clouds of predicted (ending with pred.txt) and ground truth (ending with gt.txt) segmentations. 
 #Point clouds are output as txt files and can be viewed using cloudcompare.
-#To select data for testing, replace the data and label filenames in scannet_dataset.py on lines 135,136,74,75,15 and 16 to the name of the .pickle file to be used for testing.
+#To select data for testing, replace the data and label filenames in scannet_dataset.py on lines 13,69,and 127 to the name of the .pickle file to be used for testing.
 
 
 from past.builtins import xrange
